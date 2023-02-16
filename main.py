@@ -5,6 +5,7 @@ from kivy.properties import NumericProperty
 from kivy.lang import Builder
 import xmlrpclib
 from kivy.storage.jsonstore import JsonStore
+print("Hello")
 #store = JsonStore('hello.json')
 Builder.load_string('''
 #:import JsonStore kivy.storage.jsonstore
